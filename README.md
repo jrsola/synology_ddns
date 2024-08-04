@@ -10,12 +10,14 @@ Just copy the files between /volume1/yoursharedirectory and your
 local DSM directory
 
 **/etc directory**
+
 Do not touch anything in the /etc directory. 
 It will contain the ddns_provider.conf with added regular customizations 
 made from DSM interface itself
   ddns_provider.conf -> (dont' touch anything)
 
 **/etc.defaults directory**
+
 Append your customized DDNS provider in the ddns_provider.conf file
 Just add it to the end of the file with a text editor
 
